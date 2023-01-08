@@ -1,4 +1,7 @@
 import * as server from "./server";
+import * as dotenv from 'dotenv'
+
+dotenv.config();
 
 const getRequiredConfiguration = (name: string) => {
   const configurationValue = process.env[name];
