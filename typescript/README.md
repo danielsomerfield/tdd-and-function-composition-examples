@@ -1,4 +1,4 @@
-# An example of simple Dependency Injection with Typescript
+# TDD and function-first composition with TypeScript
 
 # Instructions
 
@@ -9,6 +9,13 @@
 ## Running the integration tests
 
     npm test:integration
+
+## Running the application
+
+    docker-compose up -d
+    npm start
+
+  You should then be able to access the service endpoint at `http://localhost:3000/restaurants/recommended`
 
 # Points of interest
 
